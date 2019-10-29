@@ -2,8 +2,11 @@ package com.hgz.entity;
 
 import java.io.Serializable;
 import java.util.Date;
-
+/**
+*商品表
+*/
 public class TProduct implements Serializable{
+
     private Long id;
 
     private String name;
